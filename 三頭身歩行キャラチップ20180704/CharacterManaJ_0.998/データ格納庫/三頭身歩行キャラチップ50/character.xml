@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="default" rev="2018-07-04_112311" version="1.0" xsi:schemaLocation="http://charactermanaj.sourceforge.jp/schema/charactermanaj character.xsd" xmlns="http://charactermanaj.sourceforge.jp/schema/charactermanaj">
+    <name xml:lang="ja">三頭身歩行キャラチップ50</name>
+    <information>
+        <author xml:lang="ja">きりんご</author>
+        <description xml:lang="ja">三頭身歩行キャラチップのジェネレータです。
+●加工、二次配布は禁止です。
+●クレジットに明記してください。
+　制作者名(きりんご)または配布サイト名(うさくら素材)やURL
+●商用、R18、同人利用可能です。
+●報告の必要はありません(あると嬉しいです)
+
+201806現在種類は少ないですが、
+少しずつパーツを増やしていくつもりです。
+
+色変更において不調が起きやすいようです。
+不調が起きた場合は一度パーツを変更してみるなどしてください。</description>
+    </information>
+    <image-size>
+        <width>180</width>
+        <height>400</height>
+    </image-size>
+    <settings>
+        <entry key="watch-dir">true</entry>
+    </settings>
+    <categories>
+        <category id="catd3912c62-19db-4982-ba96-d6d03c3257e9" multipleSelectable="false">
+            <visible-rows>4</visible-rows>
+            <display-name xml:lang="ja">素体</display-name>
+            <layers>
+                <layer id="lay419bd26f-1f78-4916-b1db-27acfd8ab5e3">
+                    <display-name xml:lang="ja">素体　下にくる腕</display-name>
+                    <order>40</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>sotai_shitaude</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay72455c4b-203e-453c-bc71-7c1aa72abbee">
+                    <display-name xml:lang="ja">素体　下足と右足</display-name>
+                    <order>50</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>sotai_shitaashi</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay5cc05684-f270-410d-a7ea-43be80b7a06a">
+                    <display-name xml:lang="ja">素体　上足と左足</display-name>
+                    <order>80</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>sotai_ueashi</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay156d3e1a-3cc9-4687-98a6-446779a82282">
+                    <display-name xml:lang="ja">素体　胴</display-name>
+                    <order>100</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>sotai_dou</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay5d37d97b-5063-4cef-87b7-6b46c546c121">
+                    <display-name xml:lang="ja">素体　胸横向き用</display-name>
+                    <order>105</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>sotai_muneyoko</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="laybfff4f9c-fc36-4cdc-85e0-ac3c93e9c4bb">
+                    <display-name xml:lang="ja">素体　上にくる腕</display-name>
+                    <order>122</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>sotai_ueude</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay0c487aa6-ab95-46b1-a3f3-6738ad06e6fb">
+                    <display-name xml:lang="ja">素体　胸前向き用</display-name>
+                    <order>101</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>sotai_muneue</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay8edddeab-8bae-4138-af01-04b28b0a6973">
+                    <display-name xml:lang="ja">素体　頭</display-name>
+                    <order>170</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>sotai_atama</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat472ad755-0292-43f8-95cb-0266b7ef5844" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">耳</display-name>
+            <layers>
+                <layer id="laye2672541-1e5d-45c7-9a51-221024249e89">
+                    <display-name xml:lang="ja">耳　下</display-name>
+                    <order>0</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>mimi_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layb5f8e55c-479e-45e7-8a58-1b5058e1f804">
+                    <display-name xml:lang="ja">耳　上</display-name>
+                    <order>215</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>mimi_ue</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cata95ae64b-fe17-495c-ada2-46a233bfa24a" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">前髪</display-name>
+            <layers>
+                <layer id="lay492cdeee-e301-4e16-ab1b-6c38db6860b5">
+                    <display-name xml:lang="ja">前髪　下</display-name>
+                    <order>0</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>maegami_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layd09c4db7-2f5d-47b7-bcc0-4b0bb346aa99">
+                    <display-name xml:lang="ja">前髪 耳より下</display-name>
+                    <order>213</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>maegami_mimiyorishita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layfac3cef1-356a-4622-abc4-3903cb5b3497">
+                    <display-name xml:lang="ja">前髪</display-name>
+                    <order>220</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>maegami</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="catf62f2baa-6942-4213-b344-2be615bcf7bd" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">髪</display-name>
+            <layers>
+                <layer id="lay80bdbed8-31cc-42b3-8e88-a477df9fe7c1">
+                    <display-name xml:lang="ja">髪２　下</display-name>
+                    <order>17</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>kami_2_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layb2697029-657d-4f2a-83f0-5e0b9298e46b">
+                    <display-name xml:lang="ja">髪　下</display-name>
+                    <order>20</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>kami_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay8b008709-99da-4d9c-9448-5afc6b691ee3">
+                    <display-name xml:lang="ja">髪</display-name>
+                    <order>210</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>kami</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layfbfc8848-1812-4a40-a90d-f010231ae51c">
+                    <display-name xml:lang="ja">髪２　</display-name>
+                    <order>214</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>kami_2</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat2e23911a-b34b-4b0a-a573-0dd86eeddc57" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">もみあげ、アホ毛</display-name>
+            <layers>
+                <layer id="lay266c4300-d30b-4ac8-8fe8-399cc8897e28">
+                    <display-name xml:lang="ja">もみあげ　下</display-name>
+                    <order>0</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>momiage_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layb1c49a65-038a-4769-b837-0352639ec192">
+                    <display-name xml:lang="ja">もみあげ</display-name>
+                    <order>250</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>momiage</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="eye" multipleSelectable="false">
+            <visible-rows>6</visible-rows>
+            <display-name xml:lang="ja">目</display-name>
+            <layers>
+                <layer id="lay639dae08-8078-4d48-ba92-d4f44d31f373">
+                    <display-name xml:lang="ja">目の影</display-name>
+                    <order>198</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>eye_kage</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="laybe85e7db-8bcb-4e93-b10a-26ca49f906b2">
+                    <display-name xml:lang="ja">目　白</display-name>
+                    <order>199</order>
+                    <dir>eye_shiro</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="eye">
+                    <display-name xml:lang="ja">目</display-name>
+                    <order>200</order>
+                    <colorGroup init-sync="true" refid="color-eye"/>
+                    <dir>eye</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat0e78bec1-78f8-4ead-96b8-8a3447097251" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">眉</display-name>
+            <layers>
+                <layer id="lay7fc6e231-8861-4844-9935-c35f9f275513">
+                    <display-name xml:lang="ja">眉の影</display-name>
+                    <order>185</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>mayu_kage</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay69ef4d6d-2721-48e7-a0ad-15a0bf230682">
+                    <display-name xml:lang="ja">眉</display-name>
+                    <order>190</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>mayu</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cated0d5628-8f7c-4284-8b1a-0bcc9080d879" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">口</display-name>
+            <layers>
+                <layer id="lay765b3841-b707-4e5a-a3e3-99735a79f62c">
+                    <display-name xml:lang="ja">口</display-name>
+                    <order>180</order>
+                    <dir>kuchi</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cateaa34a0f-71db-40ed-852b-fed885598079" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">インナー1</display-name>
+            <layers>
+                <layer id="laybb68f5b4-5433-449c-ac4c-0f411ea3aac4">
+                    <display-name xml:lang="ja">服　インナー1 下</display-name>
+                    <order>117</order>
+                    <colorGroup init-sync="true" refid="cg6a2e3f3a-87fc-48f5-b32b-da8e3132f2e7"/>
+                    <dir>huku_inna_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="laya726642f-738d-4752-b2b7-0e2749b63491">
+                    <display-name xml:lang="ja">服　インナー１　袖上</display-name>
+                    <order>125</order>
+                    <colorGroup init-sync="true" refid="cg6a2e3f3a-87fc-48f5-b32b-da8e3132f2e7"/>
+                    <dir>huku_inna_uesode</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layd5e6d68a-dfcd-4fd8-ab1b-c1bdee1a3068">
+                    <display-name xml:lang="ja">服　インナー１　袖下</display-name>
+                    <order>45</order>
+                    <colorGroup init-sync="true" refid="cg6a2e3f3a-87fc-48f5-b32b-da8e3132f2e7"/>
+                    <dir>huku_inna_shitasode</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layb4adb00e-7655-4563-aaa6-ad8a10a1e1cd">
+                    <display-name xml:lang="ja">服　インナー1 上</display-name>
+                    <order>150</order>
+                    <colorGroup init-sync="true" refid="cg6a2e3f3a-87fc-48f5-b32b-da8e3132f2e7"/>
+                    <dir>huku_inna_ue</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay0374930c-2af5-4595-8266-b10edfec7800">
+                    <display-name xml:lang="ja">服　インナー１　セーラー襟</display-name>
+                    <order>120</order>
+                    <colorGroup init-sync="true" refid="cg6a2e3f3a-87fc-48f5-b32b-da8e3132f2e7"/>
+                    <dir>huku_inna_seraeri</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cate979377d-b23c-4912-b505-74e48a15f6b0" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">インナー2</display-name>
+            <layers>
+                <layer id="layeb460edc-66c5-494e-bd1b-77febe0ed6f3">
+                    <display-name xml:lang="ja">服　インナー2　袖上</display-name>
+                    <order>126</order>
+                    <colorGroup init-sync="true" refid="cg65a1fae8-17fb-45eb-97c1-c2edb1aaceab"/>
+                    <dir>huku_inna2_uesode</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layb8082224-a955-473a-b6bb-51061c57aaee">
+                    <display-name xml:lang="ja">服　インナー2　下</display-name>
+                    <order>119</order>
+                    <colorGroup init-sync="true" refid="cg65a1fae8-17fb-45eb-97c1-c2edb1aaceab"/>
+                    <dir>huku_inna2_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay563830f0-62a6-420e-a8a4-1709a12ce78e">
+                    <display-name xml:lang="ja">服　インナー2　袖下</display-name>
+                    <order>46</order>
+                    <colorGroup init-sync="true" refid="cg65a1fae8-17fb-45eb-97c1-c2edb1aaceab"/>
+                    <dir>huku_inna2_shitasode</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay7ccb8f45-394c-4e3e-a08f-ed42bce7b099">
+                    <display-name xml:lang="ja">服　インナー2　上</display-name>
+                    <order>155</order>
+                    <colorGroup init-sync="true" refid="cg65a1fae8-17fb-45eb-97c1-c2edb1aaceab"/>
+                    <dir>huku_inna2_ue</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat7b4474e2-d7a8-44bb-95a4-390a187380f5" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">アウター</display-name>
+            <layers>
+                <layer id="lay553b7764-f322-4c0a-8366-7a81193c6607">
+                    <display-name xml:lang="ja">服　アウター下</display-name>
+                    <order>121</order>
+                    <colorGroup init-sync="true" refid="cgc5a49660-ec19-42ed-8fb5-6932954159f9"/>
+                    <dir>huku_auta_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay28ace682-e0d0-4a85-84f0-ea0db2ba5f7e">
+                    <display-name xml:lang="ja">服　アウター　袖上</display-name>
+                    <order>127</order>
+                    <colorGroup init-sync="true" refid="cgc5a49660-ec19-42ed-8fb5-6932954159f9"/>
+                    <dir>huku_auta_uesode</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layf8826650-7944-41cb-8763-a4c5267a3db0">
+                    <display-name xml:lang="ja">服　アウター　袖下</display-name>
+                    <order>47</order>
+                    <colorGroup init-sync="true" refid="cgc5a49660-ec19-42ed-8fb5-6932954159f9"/>
+                    <dir>huku_auta_shitasode</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay3592000c-6b08-4658-a5c2-bc720d6c0a4e">
+                    <display-name xml:lang="ja">服　アウター</display-name>
+                    <order>160</order>
+                    <colorGroup init-sync="true" refid="cgc5a49660-ec19-42ed-8fb5-6932954159f9"/>
+                    <dir>huku_auta</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat71f1802a-6288-4923-8478-76cec3973cbe" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">ボトムス</display-name>
+            <layers>
+                <layer id="layace8f5a1-5b99-4ce6-9c2c-d6ff1e714e0e">
+                    <display-name xml:lang="ja">ボトムス下</display-name>
+                    <order>60</order>
+                    <colorGroup init-sync="true" refid="color-dress"/>
+                    <dir>huku_botomusu_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay4a71dab9-706e-4ac4-927a-ea2c37dfc43b">
+                    <display-name xml:lang="ja">ボトムス上</display-name>
+                    <order>110</order>
+                    <colorGroup init-sync="true" refid="color-dress"/>
+                    <dir>huku_botomusu</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="catfc4eea51-1d5a-40bd-9918-fe813233a8b3" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">レッグウェア</display-name>
+            <layers>
+                <layer id="lay16766644-b08f-4fe9-9bd6-ccc045192435">
+                    <display-name xml:lang="ja">レッグウェア下</display-name>
+                    <order>55</order>
+                    <colorGroup init-sync="true" refid="cg09dbf2ad-6d1c-46cb-b449-f34f6b069d66"/>
+                    <dir>reggu_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay21a2c919-030d-4226-961d-cfb67730b34e">
+                    <display-name xml:lang="ja">レッグウェア上</display-name>
+                    <order>85</order>
+                    <colorGroup init-sync="true" refid="cg09dbf2ad-6d1c-46cb-b449-f34f6b069d66"/>
+                    <dir>reggu_ue</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="catc64bf45b-9108-48d6-885f-79aeaf0cbbbe" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">靴</display-name>
+            <layers>
+                <layer id="lay6e25951d-4e0a-40db-8b0b-1a2bfc30d191">
+                    <display-name xml:lang="ja">靴　上</display-name>
+                    <order>109</order>
+                    <colorGroup init-sync="true" refid="cgf92f0047-d600-4611-94d9-7d1965c79c2e"/>
+                    <dir>kutsu</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layb7c37284-0cfa-46e3-8818-f87a8a4b04cd">
+                    <display-name xml:lang="ja">靴　下</display-name>
+                    <order>59</order>
+                    <colorGroup init-sync="true" refid="cgf92f0047-d600-4611-94d9-7d1965c79c2e"/>
+                    <dir>kutsu_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat37c66c01-acf1-4abe-b24a-4ba219ee5c69" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">服アクセサリー</display-name>
+            <layers>
+                <layer id="lay90afb1d3-3911-4880-8b8a-6596df1d778c">
+                    <display-name xml:lang="ja">アクセサリー　服</display-name>
+                    <order>209</order>
+                    <colorGroup init-sync="true" refid="cg20b6df39-8418-4601-90d0-51bb9529e434"/>
+                    <dir>akusesari_kubimoto</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay56f40719-9433-45d2-a562-0c6de4140a6f">
+                    <display-name xml:lang="ja">アクセサリー　服</display-name>
+                    <order>118</order>
+                    <colorGroup init-sync="true" refid="cg20b6df39-8418-4601-90d0-51bb9529e434"/>
+                    <dir>akusesari_kubimoto_shita</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="catcfb6a304-6a71-4792-a10f-8633d838072e" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">アクセサリー</display-name>
+            <layers>
+                <layer id="lay65d78c12-0c69-448c-9dcb-25c3704c8036">
+                    <display-name xml:lang="ja">最背面</display-name>
+                    <order>0</order>
+                    <dir>saihaimen</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layd5fc9d31-4def-4e69-a46f-c5c2e81f941e">
+                    <display-name xml:lang="ja">アクセサリー　しっぽ翼</display-name>
+                    <order>10</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>akusesari_haimen_kamiiro</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layaf8110b3-503f-4091-9fc4-8771c1cc311e">
+                    <display-name xml:lang="ja">アクセサリー　リュック</display-name>
+                    <order>30</order>
+                    <dir>akusesari_haimen</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay926b1390-0680-480f-8725-330bb602ade8">
+                    <display-name xml:lang="ja">アクセサリー　下腕</display-name>
+                    <order>45</order>
+                    <dir>akusesari_shitaude</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay74ec3b08-5ba7-4c45-ab1b-d3a11016143e">
+                    <display-name xml:lang="ja">アクセサリー　上腕</display-name>
+                    <order>130</order>
+                    <dir>akusesari_ueude</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layac66ed0e-df0b-4bf4-9dbe-1eb78478b3cc">
+                    <display-name xml:lang="ja">傷、タトゥー</display-name>
+                    <order>195</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>akusesari_kizu</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layd2bae148-c541-44c6-bf43-8e6fddecfe2a">
+                    <display-name xml:lang="ja">アクセサリー　獣耳</display-name>
+                    <order>230</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>akusesari_atama_kamiiro</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="catf2be69d0-83b8-49f3-9af1-95c08d9a3e54" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">髪アクセサリー</display-name>
+            <layers>
+                <layer id="lay95f04d8d-1e9b-4e3d-a78b-57f36ef250b3">
+                    <display-name xml:lang="ja">アクセサリー　髪下</display-name>
+                    <order>18</order>
+                    <colorGroup init-sync="true" refid="cgc376c297-a889-4fe7-bfa9-eef7c71dfb10"/>
+                    <dir>akusesari_kami_shita</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="layb003cd95-c574-4ed6-9e43-d58c8884f5f3">
+                    <display-name xml:lang="ja">アクセサリー　髪</display-name>
+                    <order>213</order>
+                    <colorGroup init-sync="true" refid="cgc376c297-a889-4fe7-bfa9-eef7c71dfb10"/>
+                    <dir>akusesari_kami</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay33b8d979-8f23-43da-8362-efff9461e5eb">
+                    <display-name xml:lang="ja">アクセサリー　髪　横</display-name>
+                    <order>260</order>
+                    <colorGroup init-sync="true" refid="cgc376c297-a889-4fe7-bfa9-eef7c71dfb10"/>
+                    <dir>akusesari_kami_yoko</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+    </categories>
+    <colorGroups>
+        <colorGroup id="color-hair">
+            <display-name xml:lang="ja">髪</display-name>
+        </colorGroup>
+        <colorGroup id="color-eye">
+            <display-name xml:lang="ja">瞳</display-name>
+        </colorGroup>
+        <colorGroup id="color-skin">
+            <display-name xml:lang="ja">肌</display-name>
+        </colorGroup>
+        <colorGroup id="color-dress">
+            <display-name xml:lang="ja">ボトムス</display-name>
+        </colorGroup>
+        <colorGroup id="cg6a2e3f3a-87fc-48f5-b32b-da8e3132f2e7">
+            <display-name xml:lang="ja">インナー１</display-name>
+        </colorGroup>
+        <colorGroup id="cg65a1fae8-17fb-45eb-97c1-c2edb1aaceab">
+            <display-name xml:lang="ja">インナー２</display-name>
+        </colorGroup>
+        <colorGroup id="cgc5a49660-ec19-42ed-8fb5-6932954159f9">
+            <display-name xml:lang="ja">アウター</display-name>
+        </colorGroup>
+        <colorGroup id="cg13e7212d-4a0e-4229-b692-862a47fbb609">
+            <display-name xml:lang="ja">主線</display-name>
+        </colorGroup>
+        <colorGroup id="cgf92f0047-d600-4611-94d9-7d1965c79c2e">
+            <display-name xml:lang="ja">靴</display-name>
+        </colorGroup>
+        <colorGroup id="cgc376c297-a889-4fe7-bfa9-eef7c71dfb10">
+            <display-name xml:lang="ja">髪アクセサリ</display-name>
+        </colorGroup>
+        <colorGroup id="cg09dbf2ad-6d1c-46cb-b449-f34f6b069d66">
+            <display-name xml:lang="ja">レッグウェア</display-name>
+        </colorGroup>
+        <colorGroup id="cg20b6df39-8418-4601-90d0-51bb9529e434">
+            <display-name xml:lang="ja">服アクセサリ</display-name>
+        </colorGroup>
+    </colorGroups>
+    <recommendations>
+        <recommendation>
+            <description xml:lang="ja">(キャラクターなんとか機本家) K.Hmix 1st Edition</description>
+            <URL xml:lang="ja">http://khmix.sakura.ne.jp/</URL>
+        </recommendation>
+        <recommendation>
+            <description xml:lang="ja">キャラクターなんとか機 追加パーツ保管庫</description>
+            <URL xml:lang="ja">http://nantoka.main.jp/</URL>
+        </recommendation>
+        <recommendation>
+            <description xml:lang="ja">USAKURA.SOZAI</description>
+            <URL xml:lang="ja">https://kirixngo.wixsite.com/sozai</URL>
+        </recommendation>
+    </recommendations>
+    <presets default-preset="psbd767773-b563-4134-9dee-2fb2215d1b23">
+        <preset id="psbd767773-b563-4134-9dee-2fb2215d1b23">
+            <display-name xml:lang="ja">素体</display-name>
+            <background-color color="#ffffff"/>
+            <category refid="eye">
+                <parts name="普通ツリ"/>
+            </category>
+            <category refid="cat71f1802a-6288-4923-8478-76cec3973cbe">
+                <parts name="無し"/>
+            </category>
+            <category refid="cat0e78bec1-78f8-4ead-96b8-8a3447097251">
+                <parts name="まっすぐ"/>
+            </category>
+            <category refid="cated0d5628-8f7c-4284-8b1a-0bcc9080d879">
+                <parts name="にっこり"/>
+            </category>
+            <category refid="cata95ae64b-fe17-495c-ada2-46a233bfa24a">
+                <parts name="分け右長め"/>
+            </category>
+            <category refid="catf62f2baa-6942-4213-b344-2be615bcf7bd">
+                <parts name="ショート"/>
+            </category>
+            <category refid="catd3912c62-19db-4982-ba96-d6d03c3257e9">
+                <parts name="素体(女性)"/>
+            </category>
+            <category refid="cat472ad755-0292-43f8-95cb-0266b7ef5844">
+                <parts name="普通耳"/>
+            </category>
+            <category refid="cat7b4474e2-d7a8-44bb-95a4-390a187380f5">
+                <parts name="無し"/>
+            </category>
+        </preset>
+    </presets>
+</character>
