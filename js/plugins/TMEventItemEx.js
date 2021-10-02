@@ -1,4 +1,4 @@
-﻿//=============================================================================
+//=============================================================================
 // TMPlugin - アイテム選択拡張
 // バージョン: 1.1.0
 // 最終更新日: 2017/01/24
@@ -165,6 +165,18 @@ TMPlugin.EventItemEx.FixPlacement       = TMPlugin.EventItemEx.Parameters['fixPl
   // Window_EventItem
   //
 
+  Window_EventItem.prototype.initialize = function(messageWindow) {
+    this._messageWindow = messageWindow;
+    var width = Graphics.boxWidth - 100;
+    var height = this.windowHeight();
+    Window_ItemList.prototype.initialize.call(this, 50, 0, width, height);
+    this.openness = 0;
+    this.deactivate();
+    this.setHandler('ok',     this.onOk.bind(this));
+    this.setHandler('cancel', this.onCancel.bind(this));
+};
+
+
   Window_EventItem.prototype.isHelpWindowEnabled = function() {
     var itypeId = $gameMessage.itemChoiceItypeId();
     if (itypeId === 1) {
@@ -255,6 +267,13 @@ TMPlugin.EventItemEx.FixPlacement       = TMPlugin.EventItemEx.Parameters['fixPl
   // Window_Message
   //
 
+
+  Window_Help.prototype.initialize = function(numLines) {
+    var width = Graphics.boxWidth-100;
+    var height = this.fittingHeight(1);
+    Window_Base.prototype.initialize.call(this, 50, 0, width, height);
+    this._text = '';
+};
   var _Window_Message_subWindows = Window_Message.prototype.subWindows;
   Window_Message.prototype.subWindows = function() {
     var subWindows = _Window_Message_subWindows.call(this);
