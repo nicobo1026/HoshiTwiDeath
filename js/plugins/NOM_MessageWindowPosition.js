@@ -49,7 +49,7 @@
           this.x = 150;
           break;
       case 1:
-          this.x = (Graphics.boxWidth - 300 - this.width) / 2;
+          this.x = (Graphics.boxWidth - this.width) / 2;
           break;
       case 2:
           this.x = Graphics.boxWidth - 150 - this.width;
