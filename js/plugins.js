@@ -48,5 +48,6 @@ var $plugins =
 {"name":"smoothscroll","status":false,"description":"カメラの移動を滑らかにするプラグインです。","parameters":{}},
 {"name":"aligncenter","status":true,"description":"メッセージボックスの文字を中央揃い、右揃いにするプラグインです。","parameters":{}},
 {"name":"MPP_ChoiceAlign","status":true,"description":"選択肢に文字揃えを行う機能を追加します。","parameters":{}},
-{"name":"CustomizeConfigItem","status":false,"description":"オプション任意項目作成プラグイン","parameters":{"数値項目":"","文字項目":"","スイッチ項目":"","音量項目":""}}
+{"name":"CustomizeConfigItem","status":false,"description":"オプション任意項目作成プラグイン","parameters":{"数値項目":"","文字項目":"","スイッチ項目":"","音量項目":""}},
+{"name":"RelativeTouchPad","status":true,"description":"相対タッチパッドプラグイン","parameters":{"タッチ有効領域":"0,0,1104,624","パッド画像ファイル":"system_controller_pad","アロー画像ファイル":"system_controller_arrow","パッド画像不透明度":"255"}}
 ];
