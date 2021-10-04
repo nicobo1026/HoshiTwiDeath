@@ -7,11 +7,11 @@ null,
 {"id":5,"expanded":true,"name":"城3F-Tutorial","order":2,"parentId":1,"scrollX":483.5,"scrollY":456.5},
 {"id":6,"expanded":false,"name":"ホテル廊下","order":4,"parentId":1,"scrollX":956.5,"scrollY":448.5},
 {"id":7,"expanded":true,"name":"第三章","order":6,"parentId":0,"scrollX":580.1999999999999,"scrollY":547.8},
-{"id":8,"expanded":true,"name":"城3F","order":7,"parentId":7,"scrollX":483.5,"scrollY":456.5},
+{"id":8,"expanded":true,"name":"城3F","order":7,"parentId":7,"scrollX":482.5,"scrollY":456.5},
 {"id":9,"expanded":false,"name":"城3F廊下","order":8,"parentId":8,"scrollX":538.5,"scrollY":448.5},
 {"id":10,"expanded":true,"name":"ホテル廊下","order":9,"parentId":7,"scrollX":859.5,"scrollY":448.5},
 null,
-{"id":12,"expanded":false,"name":"男子トイレ","order":10,"parentId":10,"scrollX":483.5,"scrollY":456.5},
-{"id":13,"expanded":false,"name":"女子トイレ","order":11,"parentId":10,"scrollX":483.5,"scrollY":456.5},
-{"id":14,"expanded":false,"name":"ブレーカー室","order":12,"parentId":10,"scrollX":483.5,"scrollY":456.5}
+{"id":12,"expanded":false,"name":"男子トイレ","order":10,"parentId":10,"scrollX":482.5,"scrollY":456.5},
+{"id":13,"expanded":false,"name":"女子トイレ","order":11,"parentId":10,"scrollX":482.5,"scrollY":456.5},
+{"id":14,"expanded":false,"name":"ブレーカー室","order":12,"parentId":10,"scrollX":482.5,"scrollY":456.5}
 ]
