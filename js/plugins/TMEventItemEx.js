@@ -267,13 +267,6 @@ TMPlugin.EventItemEx.FixPlacement       = TMPlugin.EventItemEx.Parameters['fixPl
   // Window_Message
   //
 
-
-  Window_Help.prototype.initialize = function(numLines) {
-    var width = Graphics.boxWidth-100;
-    var height = this.fittingHeight(1);
-    Window_Base.prototype.initialize.call(this, 50, 0, width, height);
-    this._text = '';
-};
   var _Window_Message_subWindows = Window_Message.prototype.subWindows;
   Window_Message.prototype.subWindows = function() {
     var subWindows = _Window_Message_subWindows.call(this);

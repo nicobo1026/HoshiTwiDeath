@@ -61,5 +61,12 @@
           this.y = messageY + this._messageWindow.height;
       }
 
+      Window_Help.prototype.initialize = function(numLines) {
+        var width = Graphics.boxWidth-100;
+        var height = this.fittingHeight(1);
+        Window_Base.prototype.initialize.call(this, 50, 0, width, height);
+        this._text = '';
+    };
+
     };
 })();
