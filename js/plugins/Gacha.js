@@ -621,7 +621,7 @@ function Scene_Gacha() {
     Scene_Gacha.prototype.createResultWindow = function() {
         var wy          = this._helpWindow.height;
         var wh          = Graphics.boxHeight - wy - this._messageWindow.height;
-        this._resultWindow = new Window_GachaResult(0, wy, Graphics.boxWidth, wh);
+        this._resultWindow = new Window_GachaResult(0, wy, Graphics.boxWidth , wh);
         this._resultWindow.hide();
         this.addWindow(this._resultWindow);
     };
