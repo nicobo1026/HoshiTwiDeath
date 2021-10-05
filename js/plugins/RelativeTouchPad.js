@@ -75,7 +75,7 @@ function Game_Relative_Pad() {
     this.initialize.apply(this, arguments);
 }
 /* 設定項目 */
-if (Utils.isMobileDevice()) {
+if (!Utils.isMobileDevice()) {
 /* 相対タッチ移動を禁止します。 */
 Game_Relative_Pad.disable              = false;
 /* 通常のマップタッチ移動を禁止します。 */
