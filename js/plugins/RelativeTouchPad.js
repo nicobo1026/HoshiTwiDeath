@@ -75,12 +75,17 @@ function Game_Relative_Pad() {
     this.initialize.apply(this, arguments);
 }
 /* 設定項目 */
-//if (!Utils.isMobileDevice()) {
+if (Utils.isMobileDevice()) {
 /* 相対タッチ移動を禁止します。 */
 Game_Relative_Pad.disable              = false;
 /* 通常のマップタッチ移動を禁止します。 */
 Game_Relative_Pad.mapTouchDisable      = true;
-//};
+} else {
+/* 相対タッチ移動を許可します。 */
+Game_Relative_Pad.disable              = true;
+/* 通常のマップタッチ移動を許可します。 */
+Game_Relative_Pad.mapTouchDisable      = false;
+ }
 /* 歩行せずその場方向転換になる圏内です。 */
 Game_Relative_Pad.distanceNear         = 24;
 /* ダッシュせず歩行になる圏内です。 */
