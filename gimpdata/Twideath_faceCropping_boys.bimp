@@ -1,0 +1,14 @@
+#BIMP 2.6
+#MANIPULATION SET DEFINITION
+
+[USERDEF0]
+procedure=gimp-crop
+num_params=5
+PARAM0=NOT_USED
+PARAM1=360
+PARAM2=360
+PARAM3=120
+PARAM4=30
+
+[RENAME]
+pattern=$$_face
