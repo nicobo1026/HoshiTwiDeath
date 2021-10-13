@@ -59,5 +59,7 @@ var $plugins =
 {"name":"NRP_ChangeCharacterSpeed","status":true,"description":"v1.01 キャラクターの移動速度を細かく変更します。","parameters":{"DefaultAlwaysDash":"","PlayerSpeed":"","PlusSpeedDash":"","<BasicSpeedRate>":"","PlayerBasicSpeedRate":"100","EventBasicSpeedRate":"100","<Vehicles>":"","BoatSpeed":"","ShipSpeed":"","AirShipSpeed":""}},
 {"name":"HTN_CrossFadeBgm","status":true,"description":"BGMをクロスフェード","parameters":{"Default Fade Duration Sec":"2","Start From Zero":"true"}},
 {"name":"SRD_AudioFader","status":true,"description":"BGM、BGS、MEオーディオエフェクトの音量フェードをより細かにコントロールできます。","parameters":{"Replay Fade Time":"30","Auto-BGM Fade In":"0"}},
-{"name":"EventItemCondition","status":true,"description":"アイテム選択の表示条件プラグイン","parameters":{"DefaultVisible":"true","RefreshSwitchId":"0","TextColor":"0"}}
+{"name":"EventItemCondition","status":true,"description":"アイテム選択の表示条件プラグイン","parameters":{"DefaultVisible":"true","RefreshSwitchId":"0","TextColor":"0"}},
+{"name":"NRP_EventFastForward","status":false,"description":"v1.00 イベント高速化機能を拡張します。","parameters":{"FastKey":"","SpeedMultiply":"8","SpeedVariableId":"","PressWait":"24","<Touch>":"","TouchSpeedMultiply":"","TouchSpeedVariableId":"","TouchPressWait":""}},
+{"name":"TMBackButton","status":true,"description":"メニューシーンにタップ操作用の戻るボタンを表示します。","parameters":{"buttonImage":"backButton","sceneMenuX":"0","sceneMenuY":"0","sceneItemX":"0","sceneItemY":"0","sceneSkillX":"0","sceneSkillY":"0","sceneEquipX":"0","sceneEquipY":"0","sceneStatusX":"0","sceneStatusY":"0","sceneOptionsX":"0","sceneOptionsY":"0","sceneSaveX":"0","sceneSaveY":"0","sceneLoadX":"0","sceneLoadY":"0","sceneGameEndX":"0","sceneGameEndY":"0","sceneShopX":"0","sceneShopY":"0","sceneNameX":"0","sceneNameY":"0"}}
 ];
